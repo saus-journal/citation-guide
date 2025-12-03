@@ -1,8 +1,7 @@
-site_name: SAUS Citation Guide
-site_url: https://saus-journal.github.io/citation-guide/
-theme: material
-  palette:
-    scheme: default
+# mkdocs.yml
+site_name: Citation Guide
+theme:
+  name: material
 
 nav:
   - Home: index.md
