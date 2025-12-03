@@ -33,9 +33,9 @@ plugins:
           name: Български
           build: true
           nav_translations:
-            Home: Начало
-            Missing: Липсващо
+            HOME: НАЧАЛО
+            CITATION ESSENTIALS: ОСНОВНИ ПРИНЦИПИ
 
 nav:
-  - Home: index.md
-  - Missing: missing_reference_information.md
+  - HOME: index.md
+  - CITATION ESSENTIALS: missing_reference_information.md
