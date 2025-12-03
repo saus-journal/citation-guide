@@ -32,6 +32,8 @@ plugins:
         - locale: bg
           name: Български
           build: true
+          nav_translations:
+            Home: Начало
 
 nav:
   - Home: index.md
