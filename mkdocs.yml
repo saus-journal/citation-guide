@@ -1,4 +1,4 @@
-site_name: Citation Guide
+site_name: SAUS Citation Guide
 
 theme:
   name: material
@@ -23,10 +23,9 @@ plugins:
   - search
   - i18n:
       docs_structure: suffix
-      default_language: en
       languages:
         - locale: en
-          default: true
+          default: true      # EN = default language
           name: English
           build: true
         - locale: bg
