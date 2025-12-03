@@ -1,7 +1,20 @@
-# mkdocs.yml
 site_name: Citation Guide
+
 theme:
   name: material
+  palette:
+    - scheme: default        # Light mode
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate          # Dark mode
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
 
 nav:
   - Home: index.md
