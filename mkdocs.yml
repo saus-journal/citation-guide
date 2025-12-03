@@ -34,6 +34,8 @@ plugins:
           build: true
           nav_translations:
             Home: Начало
+            Missing: Липсващо
 
 nav:
   - Home: index.md
+  - Missing: missing_reference_elements.md
