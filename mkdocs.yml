@@ -38,4 +38,4 @@ plugins:
 
 nav:
   - Home: index.md
-  - Missing: missing_reference_elements.md
+  - Missing: missing_reference_information.md
