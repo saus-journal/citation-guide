@@ -2,17 +2,16 @@ site_name: Citation Guide
 
 theme:
   name: material
-
-  language: en            # default language for UI strings (EN)
+  language: en
   palette:
-    - scheme: default
+    - scheme: default        # Light mode
       primary: indigo
       accent: indigo
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
       media: "(prefers-color-scheme: light)"
-    - scheme: slate
+    - scheme: slate          # Dark mode
       primary: indigo
       accent: indigo
       toggle:
@@ -20,19 +19,19 @@ theme:
         name: Switch to light mode
       media: "(prefers-color-scheme: dark)"
 
-# Multilingual plugin
 plugins:
   - search
   - i18n:
-      default_language: en       # English = default at root URL
+      docs_structure: suffix
+      default_language: en
       languages:
-        en:
+        - locale: en
+          default: true
           name: English
           build: true
-        bg:
+        - locale: bg
           name: Български
           build: true
-      docs_structure: suffix     # en pages: index.md; bg pages: bg/index.md
 
 nav:
   - Home: index.md
