@@ -23,10 +23,11 @@ theme:
 plugins:
   - search
   - i18n:
-      docs_structure: suffix
+      docs_structure: folder
+      reconfigure_material: false
       languages:
         - locale: en
-          default: true      # EN = default language
+          default: true
           name: English
           build: true
         - locale: bg
