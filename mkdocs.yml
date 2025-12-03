@@ -7,7 +7,7 @@ theme:
   palette:
     - scheme: default        # Light mode
       primary: indigo
-      accent: indigo
+      accent: deep orange
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
