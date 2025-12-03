@@ -1,4 +1,4 @@
-site_name: SAUS Citation Guide
+site_name: Citation Guide
 site_url: https://saus-journal.github.io/citation-guide/
 
 theme:
@@ -23,8 +23,7 @@ theme:
 plugins:
   - search
   - i18n:
-      docs_structure: folder
-      reconfigure_material: false
+      docs_structure: suffix
       languages:
         - locale: en
           default: true
