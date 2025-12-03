@@ -28,8 +28,8 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Install MkDocs and Material
-        run: pip install mkdocs-material
+      - name: Install MkDocs and Material + i18n
+        run: pip install mkdocs-material mkdocs-static-i18n
 
       - name: Build MkDocs site
         run: mkdocs build --strict
