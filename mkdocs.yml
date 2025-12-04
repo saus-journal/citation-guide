@@ -41,6 +41,6 @@ plugins:
 
 nav:
   - HOME: index.md
-  - CITATION ESSENTIALS: citation_essentials.md
+  - CITATION ESSENTIALS:
     - TYPES OF SCHOLARLY WORKS: types_of_scholarly_works.md
     - COMPONENTS OF REFERENCE ENTRY: components_of_reference_entry.md
