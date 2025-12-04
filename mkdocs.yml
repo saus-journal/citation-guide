@@ -45,6 +45,7 @@ plugins:
             Citation essentials: Същина на позоваването
             Types of scholarly works: Видове научни произведения
             Components of reference entry: Компоненти на библиографския запис
+            Saus Citation Style: Стил на позоваване на SAUS
             
 
 nav:
@@ -52,3 +53,6 @@ nav:
   - Citation essentials:      
     - Types of scholarly works: citation_essentials/types_of_scholarly_works.md
     - Components of reference entry: citation_essentials/components_of_reference_entry.md
+  - Saus Citation Style:
+    - Introduction: saus_citation_style/introduction.md
+    - Creators: saus_citation_style/creators.md
