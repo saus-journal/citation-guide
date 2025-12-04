@@ -25,6 +25,9 @@ theme:
     - navigation.indexes
     - navigation.expand
 
+extra_css:
+  - css/typography.css
+
 plugins:
   - search
   - i18n:
