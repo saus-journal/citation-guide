@@ -44,7 +44,7 @@ plugins:
             
 
 nav:
-  - HOME: index.md
+  - Home: index.md
   - Citation essentials:
       - citation_essentials/index.md
       - Types of scholarly works: citation_essentials/types_of_scholarly_works.md
