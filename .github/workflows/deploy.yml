@@ -23,18 +23,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install build tools (gcc)
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y gcc
-
-      - name: Install citeorder
-        run: |
-          git clone https://github.com/dhanushka2001/citeorder.git
-          cd citeorder
-          gcc -Wall citeorder.c -o citeorder
-          sudo mv citeorder /usr/local/bin/citeorder
-
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
@@ -42,16 +30,6 @@ jobs:
 
       - name: Install MkDocs and Material + i18n
         run: pip install mkdocs-material mkdocs-static-i18n
-
-      - name: Normalize footnotes with citeorder
-        run: |
-          find docs -name '*.md' -print0 | while IFS= read -r -d '' file; do
-            echo "Processing $file"
-            tmp="${file}.tmp"
-            # Assumes citeorder reads the file and writes reordered Markdown to stdout
-            citeorder -r "$file" > "$tmp"
-            mv "$tmp" "$file"
-          done
 
       - name: Build MkDocs site
         run: mkdocs build --strict
