@@ -22,6 +22,7 @@ theme:
   features:
     - navigation.tabs
     - navigation.sections
+    - navigation.indexes
 
 plugins:
   - search
@@ -45,6 +46,6 @@ plugins:
 nav:
   - HOME: index.md
   - CITATION ESSENTIALS:
-      - citation_essentials.md
-      - TYPES OF SCHOLARLY WORKS: types_of_scholarly_works.md
-      - COMPONENTS OF REFERENCE ENTRY: components_of_reference_entry.md
+      - citation_essentials/index.md
+      - TYPES OF SCHOLARLY WORKS: citation_essentials/types_of_scholarly_works.md
+      - COMPONENTS OF REFERENCE ENTRY: citation_essentials/components_of_reference_entry.md
