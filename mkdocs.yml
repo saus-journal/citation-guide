@@ -19,6 +19,8 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
       media: "(prefers-color-scheme: dark)"
+features:
+  - navigation.tabs
 
 plugins:
   - search
