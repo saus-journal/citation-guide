@@ -21,9 +21,9 @@ theme:
       media: "(prefers-color-scheme: dark)"
   features:
     - navigation.tabs
-    - navigation.tabs.sticky
     - navigation.sections
     - navigation.indexes
+    - navigation.expand
 
 plugins:
   - search
