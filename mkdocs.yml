@@ -37,15 +37,15 @@ plugins:
           name: Български
           build: true
           nav_translations:
-            HOME: НАЧАЛО
-            CITATION ESSENTIALS: ОСНОВНИ ПРИНЦИПИ
-            TYPES OF SCHOLARLY WORKS: ВИДОВЕ НАУЧНИ ПРОИЗВЕДЕНИЯ
-            COMPONENTS OF REFERENCE ENTRY: КОМПОНЕНТИ НА БИБЛИОГРАФСКИЯ ЗАПИС
+            Home: Нaчало
+            Citation essentials: Същина на позоваването
+            Types of scholarly works: Видове научни произведения
+            Components of reference entry: Компоненти на библиографския запис
             
 
 nav:
   - HOME: index.md
-  - CITATION ESSENTIALS:
+  - Citation essentials:
       - citation_essentials/index.md
-      - TYPES OF SCHOLARLY WORKS: citation_essentials/types_of_scholarly_works.md
-      - COMPONENTS OF REFERENCE ENTRY: citation_essentials/components_of_reference_entry.md
+      - Types of scholarly works: citation_essentials/types_of_scholarly_works.md
+      - Components of reference entry: citation_essentials/components_of_reference_entry.md
