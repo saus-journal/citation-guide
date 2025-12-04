@@ -49,7 +49,7 @@ jobs:
             echo "Processing $file"
             tmp="${file}.tmp"
             # Assumes citeorder reads the file and writes reordered Markdown to stdout
-            citeorder "$file" > "$tmp"
+            citeorder -r "$file" > "$tmp"
             mv "$tmp" "$file"
           done
 
