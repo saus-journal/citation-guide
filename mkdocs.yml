@@ -37,7 +37,7 @@ plugins:
           name: Български
           build: true
           nav_translations:
-            Home: Нaчало
+            Home: Начало
             Citation essentials: Същина на позоваването
             Types of scholarly works: Видове научни произведения
             Components of reference entry: Компоненти на библиографския запис
