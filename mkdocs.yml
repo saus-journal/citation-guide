@@ -29,6 +29,8 @@ extra_css:
   - css/typography.css
 
 markdown_extensions:
+  - md_in_html
+  - attr_list
   - admonition
   - pymdownx.details
   - pymdownx.superfences
