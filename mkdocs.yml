@@ -60,7 +60,7 @@ plugins:
           nav_translations:
             Home: Начало
             Citation essentials: Същина на позоваването
-            Types of scholarly works: Видове научни произведения
+            Types of referenced works: Видове реферирани трудове
             Components of reference entry: Компоненти на библиографския запис
             Saus Citation Style: Стил на позоваване на SAUS
             Introduction: Увод
@@ -70,7 +70,7 @@ plugins:
 nav:
   - Home: index.md
   - Citation essentials:      
-    - Types of scholarly works: citation_essentials/types_of_scholarly_works.md
+    - Types of referenced works: citation_essentials/types_of_scholarly_works.md
     - Components of reference entry: citation_essentials/components_of_reference_entry.md
   - Saus Citation Style:
     - Introduction: saus_citation_style/introduction.md
