@@ -37,7 +37,8 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
-  - pymdownx.tabbed
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.emoji:
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - toc:
