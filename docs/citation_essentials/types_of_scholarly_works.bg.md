@@ -10,7 +10,7 @@
 
     [Archaeopress Roman Archaeology](https://www.archaeopress.com/Archaeopress/Collection/Archaeopress-Roman-Archaeology)
 
-    [Разкопки и проучвания](https://publications.naim.bg/index.php/aer)
+    [Разкопки и проучвания](https://publications.naim.bg/index.php/aer/issue/archive)
 
 
 ### Многотомни трудове
