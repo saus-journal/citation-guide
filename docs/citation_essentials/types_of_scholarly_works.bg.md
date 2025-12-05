@@ -6,15 +6,12 @@
 
 Поредицата е продължаваща колекция от самостоятелни произведения, често написани от различни автори или изследователски екипи и обединени от широко определена тематика или институционална рамка. Отделните й части обикновено не се публикуват регулярно. Най-често представляват монографии или сборници с различен обхват и насоченост, и със самостоятелни заглавия.
 
-<div class="result" markdown>
-
 !!! example "Примери"
 
     [Archaeopress Roman Archaeology](https://www.archaeopress.com/Archaeopress/Collection/Archaeopress-Roman-Archaeology)
 
     [Разкопки и проучвания](https://publications.naim.bg/index.php/aer)
 
-</div>
 
 ### Многотомни трудове
 
@@ -33,7 +30,11 @@
     * по-ограничена тематика
     * предварително замислена завършеност
 
+!!! example "Примери"
 
+    [Excavations at Saraçhane in Istanbul](https://usearch.univie.ac.at/primo-explore/search?query=lsr02,exact,AC01765111&tab=default_tab&vid=UWI&lang=en_US)
+
+    [Donau-Bulgarien und der Balkan](https://usearch.univie.ac.at/primo-explore/search?query=lsr02,exact,AC08585924&tab=default_tab&vid=UWI&lang=en_US)
 
 ## Визуални произведения
 
