@@ -24,6 +24,7 @@ theme:
     - navigation.sections
     - navigation.indexes
     - navigation.expand
+    - navigation.external-links-new-tab
 
 extra_css:
   - css/typography.css
